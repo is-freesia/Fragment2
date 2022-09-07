@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyFragment"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="同一个activity的frag跳转"/>
+
+    <Button
+        android:id="@+id/my_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="从一个activity的frag 到另外一个activity"/>
+
+</LinearLayout>
